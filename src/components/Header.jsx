@@ -22,14 +22,14 @@ const Header = ({ theme, setTheme }) => {
   // };
   const handleThemeSwitch = () => {
     //dark mode
-    const dark_mode = document.querySelector('.dark_mode');
+    const dark_mode = document.querySelector('.dark_light');
     const classInputs = document.querySelectorAll('input');
     const textArea = document.querySelector('.text_area');
 
     if (theme === 'dark') {
       setTheme('light');
-      dark_mode.classList.remove('bg-sitedark');
-      dark_mode.classList.add('bg-sitelight', 'text-indigo-900');
+      dark_mode.classList.remove('modeDark');
+      dark_mode.classList.add('modeLight', 'text-indigo-900');
       textArea.classList.remove('placeholder:text-white');
       textArea.classList.add('placeholder:text-indigo-900');
       classInputs.forEach((input) => {
@@ -40,8 +40,8 @@ const Header = ({ theme, setTheme }) => {
       });
     } else {
       setTheme('dark');
-      dark_mode.classList.add('bg-sitedark');
-      dark_mode.classList.remove('bg-sitelight', 'text-indigo-900');
+      dark_mode.classList.add('modeDark');
+      dark_mode.classList.remove('modeLight', 'text-indigo-900');
       textArea.classList.add('placeholder:text-white');
       textArea.classList.remove('placeholder:text-indigo-900');
       classInputs.forEach((input) => {

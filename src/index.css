@@ -2,6 +2,34 @@
 @tailwind components;
 @tailwind utilities;
 
+
+.modeDark{
+background: linear-gradient(
+    92.23deg,
+    #330143 21.43%,
+    #01374f 50.63%,
+    #4a165e 100%,
+    #000000 21.43%
+  );
+
+  /* background: linear-gradient(
+    92.23deg,
+    #590675 21.43%,
+    #096d9c 50.63%,
+    #b936ee 100%,
+    #000000 21.43%
+  ); */
+}
+.modeLight{
+  background: linear-gradient(
+    92.23deg,
+    #b38ec0 21.43%,
+    #82abc0 50.63%,
+    #9e62b5 100%,
+    #ff0000 21.43%
+  );
+}
+
 .btn {
   background: linear-gradient(
     92.23deg,
@@ -9,7 +37,6 @@
     #b936ee 50.63%,
     #3bace2 100%,
     #406aff 117.04%
-   
   );
   box-shadow: 0px 4.42184px 107.23px rgba(255, 86, 246, 0.51);
 }

@@ -95,7 +95,7 @@ const Banner = () => {
               <a href=''>
                 <FaInstagram />
               </a>
-              <a href=''>
+              <a href='https://wa.me/56962460426' target='_blank'>
                 <FaWhatsapp />
               </a>
             </motion.div>
