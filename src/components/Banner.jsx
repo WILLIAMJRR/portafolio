@@ -7,6 +7,7 @@ import {
   FaInstagram,
   FaFacebook,
   FaLinkedinIn,
+  FaWhatsapp
 } from 'react-icons/fa';
 //type animation
 import { TypeAnimation } from 'react-type-animation';
@@ -30,7 +31,7 @@ const Banner = () => {
               initial='hidden'
               whileInView={'show'}
               viewport={{ once: false, amount: 0.7 }}
-              className='text-[50px] text-gradient font-bold leading-none text- lg:text-[90px]'
+              className='text-[50px] text-white font-bold leading-none text- lg:text-[90px]'
             >
               WILLIAM <span>RODRIGUEZ</span>
             </motion.h1>
@@ -93,6 +94,9 @@ const Banner = () => {
               </a>
               <a href=''>
                 <FaInstagram />
+              </a>
+              <a href=''>
+                <FaWhatsapp />
               </a>
             </motion.div>
           </div>
