@@ -11,7 +11,6 @@ import Contact from './components/Contact';
 function App() {
   //theme state
   const [theme, setTheme] = useState('dark');
-  console.log(theme);
   return (
     <div className='dark_mode bg-no-repeat bg-cover overflow-hidden bg-sitedark'>
       <Header key={'dark'} theme={theme} setTheme={setTheme} />
@@ -21,7 +20,6 @@ function App() {
       <Services />
       <Work />
       <Contact />
-      <div className='h-[4000px]'></div>
     </div>
   );
 }
