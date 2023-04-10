@@ -22,7 +22,7 @@ const Header = ({ theme, setTheme }) => {
   // };
   const handleThemeSwitch = () => {
     //dark mode
-    const dark_mode = document.querySelector('.dark_mode');
+    const dark_mode = document.querySelector('.mode');
     const classInputs = document.querySelectorAll('input');
     const textArea = document.querySelector('.text_area');
 

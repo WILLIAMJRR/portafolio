@@ -12,7 +12,7 @@ function App() {
   //theme state
   const [theme, setTheme] = useState('dark');
   return (
-    <div className='dark_mode bg-no-repeat bg-cover overflow-hidden bg-sitedark'>
+    <div className='mode bg-no-repeat bg-cover overflow-hidden bg-sitedark'>
       <Header key={'dark'} theme={theme} setTheme={setTheme} />
       <Banner />
       <Nav />
