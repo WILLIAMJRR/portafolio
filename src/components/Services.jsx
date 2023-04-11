@@ -21,8 +21,8 @@ const Services = () => {
           >
             <h2 className='h2 text-accent mb-6'>What I Do.</h2>
             <h3 className='h3 max-w-[455px] mb-16'>
-              I'm a junior frontend developer with 1 year of experience in
-              javascript, react, studying nodejs
+              I am a front end developer with knowledge in
+              Html,Css,Javascript,React,<br /> Tailwind,Bootstrap studying nodeJs
             </h3>
             <button className='btn btn-sm'>See my work</button>
           </motion.div>

@@ -21,8 +21,6 @@ import adobexd from '../../src/assets/icon/adobe-xd-svgrepo-com.svg';
 import figma from '../../src/assets/icon/figma-svgrepo-com.svg';
 import git from '../../src/assets/icon/git-svgrepo-com.svg';
 
-
-
 const About = () => {
   const [ref, useView] = useInView({
     threshold: 0.5,
@@ -50,8 +48,13 @@ const About = () => {
               viewport={{ once: false, amount: 0.3 }}
               className='h3 mb-4'
             >
-              I am a junior frontend developer with 1 year of experience in
-              javascript, react.
+              I'm a frontend Web Developer💻 As a passionate about web
+              development, I focus on creating interactive and functional sites
+              that meet the needs and preferences of customers. Also, I enjoy
+              video games 🎮🕹️ and superhero movies 🦸, horror and suspense
+              🧟🔪🔍. Your goal is to combine your programming skills and your
+              passion for entertainment to create compelling and exciting online
+              experiences for users.
             </motion.h3>
             <motion.p
               variants={fadeIn('right', 0.3)}
@@ -72,20 +75,7 @@ const About = () => {
               whileInView={'show'}
               viewport={{ once: false, amount: 0.3 }}
               className='flex flex-col '
-            >
-              <div className='text-[40px] font-tertiary text-gradient mb-2 mt-4'>
-                {inView ? (
-                  <CountUp start={34} end={1} duration={5} />
-                ) : (
-                  <CountUp start={34} end={1} duration={5} />
-                )}
-              </div>
-              <div className='font-primary text-sm tracking-[2px]'>
-                {' '}
-                Year of <br />
-                Experience{' '}
-              </div>
-            </motion.div>
+            ></motion.div>
 
             <motion.div
               variants={fadeIn('right', 0.3)}

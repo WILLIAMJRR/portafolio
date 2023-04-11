@@ -53,7 +53,7 @@ const Header = ({ theme, setTheme }) => {
     }
   };
   return (
-    <header className=' py-4  '>
+    <header className=' py-4'>
       <div className='container mx-auto'>
         {/* logo */}
         <div className='flex justify-between items-center'>
