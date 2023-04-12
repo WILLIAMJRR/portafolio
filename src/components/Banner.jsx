@@ -7,7 +7,6 @@ import {
   FaInstagram,
   FaFacebook,
   FaLinkedinIn,
-  FaWhatsapp
 } from 'react-icons/fa';
 //type animation
 import { TypeAnimation } from 'react-type-animation';
@@ -15,6 +14,8 @@ import { TypeAnimation } from 'react-type-animation';
 import { motion } from 'framer-motion';
 //variantes
 import { fadeIn } from '../variants';
+//
+import curriculum from '../assets/curriculum/CV.pdf';
 
 const Banner = () => {
   return (
@@ -71,8 +72,7 @@ const Banner = () => {
             >
               <button className='btn btn-lg '>Contact me</button>
               <a href='#' className='text-gradient btn-link'>
-                {' '}
-                My portafolio
+                My Curriculum
               </a>
             </motion.div>
             {/* socials */}
@@ -94,9 +94,6 @@ const Banner = () => {
               </a>
               <a href=''>
                 <FaInstagram />
-              </a>
-              <a href='https://wa.me/56962460426' target='_blank'>
-                <FaWhatsapp />
               </a>
             </motion.div>
           </div>

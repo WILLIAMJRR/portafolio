@@ -7,6 +7,7 @@ import About from './components/About';
 import Services from './components/Services';
 import Work from './components/Work';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 function App() {
   //theme state
@@ -20,6 +21,7 @@ function App() {
       <Services />
       <Work />
       <Contact />
+      <Footer/>
     </div>
   );
 }

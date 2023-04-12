@@ -27,7 +27,7 @@ module.exports = {
       },
       backgroundImage: {
         //sitedark: "url('./src/assets/img/site-bg.jpg')",
-        sitelight:"url('./src/assets/img/concepto-fondo-estudio-fondo-purpura-sitio-estudio-pendiente-ligera-vacia-abstracta-producto-fondo-liso-estudio.jpg')",
+       // sitelight:"url('./src/assets/img/concepto-fondo-estudio-fondo-purpura-sitio-estudio-pendiente-ligera-vacia-abstracta-producto-fondo-liso-estudio.jpg')",
         about: "url('./src/assets/img/311191014_1456031481562859_5057301907237021590_n.png')",
         services:"url('./src/assets/img/services.png')",
       },
