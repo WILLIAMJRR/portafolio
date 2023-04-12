@@ -19,12 +19,14 @@ const Services = () => {
             viewport={{ once: false, amount: 0.3 }}
             className='flex-1 lg:lg:bg-bottom bg-no-repeat  mb-12 lg:mb-0'
           >
-            <h2 className='h2 text-accent mb-6'>What I Do.</h2>
-            <h3 className='h3 max-w-[455px] mb-16'>
-              I am a front end developer with knowledge in
-              Html,Css,Javascript,React,<br /> Tailwind,Bootstrap studying nodeJs
-            </h3>
-            <button className='btn btn-sm'>See my work</button>
+            <div className=' max-w-[455px] h-[20rem] flex flex-col '>
+              <h2 className='h2 text-accent mb-6'>What I Do.</h2>
+              <h3 className='h3   '>
+                I am a front end developer <br /> with knowledge in
+                Html,Css,Javascript,<br />React,Tailwind, Bootstrap studying nodeJs
+              </h3>
+            </div>
+            <button className='btn btn-sm mt-16'>See my work</button>
           </motion.div>
           {/* services */}
           <motion.div

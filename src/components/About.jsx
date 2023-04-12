@@ -98,12 +98,12 @@ const About = () => {
               className=' mt-5'
             >
               <h2 className='text-gradient btn-link text-3xl mb-3'>Skill</h2>
-              <div className='flex gap-5 '>
+              <div className='flex flex-wrap gap-5 '>
                 <img className='w-[2.3rem]' src={html} alt='' />
                 <img className='w-[2.3rem]' src={css} alt='' />
                 <img className='w-[1.9rem]' src={javascript} alt='' />
                 <img className='w-[2.3rem]' src={react} alt='' />
-                <img className='w-[2.3rem]' src={node} alt='' />
+                {/* <img className='w-[2.3rem]' src={node} alt='' /> */}
                 <img className='w-[2rem]' src={boostrap} alt='' />
                 <img className='w-[2.9rem]' src={tailwind} alt='' />
               </div>

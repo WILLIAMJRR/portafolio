@@ -22,7 +22,7 @@ const Banner = () => {
       className='min-h-[85v] lg:min-h-[78vh] flex items-center'
       id='home'
     >
-      <div className='container mx-auto mt-32 mb-[19rem] lg:mt-0'>
+      <div className='container mx-auto mt-16 mb-[19rem]  lg:mt-0'>
         <div className='flex flex-col gap-y-8 lg:flex-row lg:items-center lg:gap-x-12'>
           {/* text */}
           <div className='flex-1 text-center font-secondary lg:text-left'>
@@ -31,7 +31,7 @@ const Banner = () => {
               initial='hidden'
               whileInView={'show'}
               viewport={{ once: false, amount: 0.7 }}
-              className='text-[50px] text-white font-bold leading-none text- lg:text-[90px]'
+              className='h1 text-[50px] text-indigo-600 font-bold leading-none text- lg:text-[90px]'
             >
               WILLIAM <span>RODRIGUEZ</span>
             </motion.h1>

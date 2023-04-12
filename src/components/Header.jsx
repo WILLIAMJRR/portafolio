@@ -29,26 +29,26 @@ const Header = ({ theme, setTheme }) => {
     if (theme === 'dark') {
       setTheme('light');
       dark_mode.classList.remove('modeDark');
-      dark_mode.classList.add('modeLight', 'text-indigo-900');
+      dark_mode.classList.add('modeLight', 'text-indigo-600');
       textArea.classList.remove('placeholder:text-white');
-      textArea.classList.add('placeholder:text-indigo-900');
+      textArea.classList.add('placeholder:text-indigo-600');
       classInputs.forEach((input) => {
         input.classList.remove('placeholder:text-white');
       });
       classInputs.forEach((input) => {
-        input.classList.add('placeholder:text-indigo-900');
+        input.classList.add('placeholder:text-indigo-600');
       });
     } else {
       setTheme('dark');
       dark_mode.classList.add('modeDark');
-      dark_mode.classList.remove('modeLight', 'text-indigo-900');
+      dark_mode.classList.remove('modeLight', 'text-indigo-600');
       textArea.classList.add('placeholder:text-white');
-      textArea.classList.remove('placeholder:text-indigo-900');
+      textArea.classList.remove('placeholder:text-indigo-600');
       classInputs.forEach((input) => {
         input.classList.add('placeholder:text-white');
       });
       classInputs.forEach((input) => {
-        input.classList.remove('placeholder:text-indigo-900');
+        input.classList.remove('placeholder:text-indigo-600');
       });
     }
   };

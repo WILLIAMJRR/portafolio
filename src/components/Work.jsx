@@ -4,13 +4,12 @@ import { fadeIn } from '../variants';
 import img from '../../src/assets/img/img1.png';
 import img2 from '../../src/assets/img/img2.png';
 import img3 from '../../src/assets/img/img3.png';
-import img4 from '../../src/assets/img/img4.png';
-import img5 from '../../src/assets/img/img5.png';
+
 
 const Work = () => {
   return (
     <section className='section' id='work'>
-      <div className='container mx-auto lg:mt-96'>
+      <div className='container mx-auto'>
         <div className='flex flex-col lg:flex-row gap-x-10 '>
           <motion.div
             variants={fadeIn('right', 0.3)}
