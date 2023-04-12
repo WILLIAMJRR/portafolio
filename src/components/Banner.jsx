@@ -19,10 +19,10 @@ import { fadeIn } from '../variants';
 const Banner = () => {
   return (
     <section
-      className='min-h-[85v] lg:min-h-[78vh] flex items-center'
+      className='min-h-[85v] lg:min-h-[78vh] flex items-center '
       id='home'
     >
-      <div className='container mx-auto mt-16 mb-[19rem]  lg:mt-0'>
+      <div className='container mx-auto ps:mt-16 mb-[19rem] s:mt-24 lg:mt-0'>
         <div className='flex flex-col gap-y-8 lg:flex-row lg:items-center lg:gap-x-12'>
           {/* text */}
           <div className='flex-1 text-center font-secondary lg:text-left'>
