@@ -3,23 +3,6 @@ import logo from '../assets/icon/logo.svg';
 import { BsFillSunFill, BsMoonFill, BsCheck } from 'react-icons/bs';
 
 const Header = ({ theme, setTheme }) => {
-  // const handleThemeSwitch = () => {
-  //   const dark_mode = document.querySelector('.dark_mode');
-  //   const classInputs = document.querySelectorAll('input');
-  //   const textArea = document.querySelector('.text_area');
-
-  //   const isDarkTheme = theme === 'dark';
-
-  //   setTheme(isDarkTheme ? 'light' : 'dark');
-  //   dark_mode.classList.toggle('bg-sitelight', isDarkTheme);
-  //   dark_mode.classList.toggle('text-indigo-900', isDarkTheme);
-  //   textArea.classList.toggle('placeholder:text-white', !isDarkTheme);
-  //   textArea.classList.toggle('placeholder:text-indigo-900', isDarkTheme);
-  //   classInputs.forEach((input) => {
-  //     input.classList.toggle('placeholder:text-white', !isDarkTheme);
-  //     input.classList.toggle('placeholder:text-indigo-900', isDarkTheme);
-  //   });
-  // };
   const handleThemeSwitch = () => {
     //dark mode
     const dark_mode = document.querySelector('.dark_light');
