@@ -25,7 +25,7 @@ const Nav = () => {
           <NavLink
             to="/"
             className={({ isActive }) =>
-              isActive ? 'active' : ''
+              isActive ? 'active animate-pulse ' : ''
             }
           >
             <img
@@ -38,7 +38,7 @@ const Nav = () => {
           <NavLink
             to="/about"
             className={({ isActive }) =>
-              isActive ? 'active' : ''
+              isActive ? 'active animate-pulse' : ''
             }
           >
             <img
@@ -51,7 +51,7 @@ const Nav = () => {
           <NavLink
             to="/services"
             className={({ isActive }) =>
-              isActive ? 'active' : ''
+              isActive ? 'active animate-pulse' : ''
             }
           >
             <img
@@ -64,7 +64,7 @@ const Nav = () => {
           <NavLink
             to="/work"
             className={({ isActive }) =>
-              isActive ? 'active' : ''
+              isActive ? 'active animate-pulse' : ''
             }
           >
             <img
@@ -77,7 +77,7 @@ const Nav = () => {
           <NavLink
             to="/contact"
             className={({ isActive }) =>
-              isActive ? 'active' : ''
+              isActive ? 'active animate-pulse' : ''
             }
           >
             <img
