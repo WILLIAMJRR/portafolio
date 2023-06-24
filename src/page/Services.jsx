@@ -17,13 +17,13 @@ const Services = () => {
             initial="hidden"
             whileInView={'show'}
             viewport={{ once: false, amount: 0.3 }}
-            className="flex-1 lg:lg:bg-bottom bg-no-repeat  mb-12 lg:mb-0"
+            className="flex-1 lg:lg:bg-bottom bg-no-repeat h-auto  bg-black lg:mb-0"
           >
-            <div className=" max-w-[455px] h-[20rem] flex flex-col ">
+            <div className=" max-w-[455px]  flex flex-col ">
               <h2 className="h2 text-accent mb-6">
                 What I Do.
               </h2>
-              <h3 className="h3   ">
+              <h3 className="h3">
                 front end developer
                 <br />
                 with knowledge
@@ -46,7 +46,7 @@ const Services = () => {
             initial="hidden"
             whileInView={'show'}
             viewport={{ once: false, amount: 0.3 }}
-            className="flex-1"
+            className="flex-1 mt-20"
           >
             {/* service list */}
             <div>
