@@ -17,7 +17,7 @@ const Services = () => {
             initial="hidden"
             whileInView={'show'}
             viewport={{ once: false, amount: 0.3 }}
-            className="flex-1 lg:lg:bg-bottom bg-no-repeat h-auto  bg-black lg:mb-0"
+            className="flex-1 lg:lg:bg-bottom bg-no-repeat h-auto  lg:mb-0"
           >
             <div className=" max-w-[455px]  flex flex-col ">
               <h2 className="h2 text-accent mb-6">
