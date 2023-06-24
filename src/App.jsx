@@ -29,7 +29,7 @@ function App() {
   }, [theme]);
   return (
     <div
-      className={`bg-no-repeat bg-cover overflow-hidden dark:bg-slate-400 dark:text-black`}
+      className={`bg-no-repeat bg-cover overflow-hidden dark:bg-slate-100 dark:text-black`}
     >
       <Header theme={theme} setTheme={setTheme} />
 

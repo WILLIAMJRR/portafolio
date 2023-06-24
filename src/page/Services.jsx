@@ -24,10 +24,9 @@ const Services = () => {
                 What I Do.
               </h2>
               <h3 className="h3   ">
-                I am a front end developer <br /> with
-                knowledge in Html,Css,Javascript,
-                <br />
-                React,Tailwind, Bootstrap studying nodeJs
+                front end developer <br /> with knowledge in
+                Html,Css,Tailwind, Bootstrap, Javascript,
+                React,Redux,React router dom,Nextjs, Sql,
               </h3>
             </div>
             <button className="btn btn-sm mt-16">
