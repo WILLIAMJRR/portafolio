@@ -20,7 +20,7 @@ import curriculum from '../assets/curriculum/CV.pdf';
 const Banner = () => {
   return (
     <section
-      className='section h-[100vh]  flex items-center '
+      className='section h-[100vh] w-[100vw] flex items-center '
 
     >
       <div className='container mx-auto   '>
