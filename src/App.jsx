@@ -10,7 +10,7 @@ import About from './page/About';
 import Services from './page/Services';
 import Work from './page/Work';
 import Contact from './page/Contact';
-// import Carrusel from './components/Carrusel';
+
 
 function App() {
   //theme state
