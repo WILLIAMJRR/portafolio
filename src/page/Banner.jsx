@@ -43,7 +43,7 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className='text-[36px] lg:text-[60px] font-secondary font-semibold uppercase leading-[1]'
             >
-           
+
               <TypeAnimation
                 sequence={['Web ', 2000, 'Development', 2000, 'Designer', 2000]}
                 speed={50}
@@ -103,9 +103,9 @@ const Banner = () => {
             variants={fadeIn('down', 0.3)}
             initial='hidden'
             whileInView={'show'}
-            className='overflow-hidden hidden  mr-36 lg:flex flex-1 max-w-[320px] rounded-full  lg:max-w[482px] '
+            className='overflow-hidden   mr-36 lg:flex lg:flex-1 max-w-[320px] rounded-full  lg:max-w[482px] '
           >
-            <img className='w-96  lg: mx-auto' src={photo} alt='' />
+            <img className='w-96 opacity-30 lg:opacity-80 lg:mx-auto' src={photo} alt='' />
           </motion.div>
         </div>
       </div>

@@ -27,7 +27,7 @@ const About = () => {
   });
 
   return (
-    <section className="section " ref={ref}>
+    <section className="section mb-10 " ref={ref}>
       <div className="container mx-auto">
         <div>
           <div className="flex-1">

@@ -8,7 +8,7 @@ import { services } from '../utils/services';
 
 const Services = () => {
   return (
-    <section className="section">
+    <section className="section mb-24">
       <div className="container mx-auto">
         <div className="flex flex-col lg:flex-row">
           {/* text & image */}
@@ -23,18 +23,10 @@ const Services = () => {
               <h2 className="h2 text-accent mb-6">
                 What I Do.
               </h2>
-              <h3 className="h3 text">
-                front end developer
-                <br />
-                with knowledge
-                <br />
-                in Html,Css,Tailwind,
-                <br />
-                Bootstrap, Javascript, React,Redux,
-                <br />
-                React router dom,
-                <br />
-                Nextjs, Sql.
+              <h3 className="h3  mb-4">
+                front end developer with knowledge in
+                Html,Css,Tailwind, Bootstrap, Javascript,
+                React,Redux, React router dom, Nextjs, Sql.
               </h3>
             </div>
             <button className="btn btn-sm mt-8 ">

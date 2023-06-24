@@ -7,7 +7,7 @@ import img3 from "../../src/assets/img/img3.png";
 
 const Work = () => {
 	return (
-		<section className=' section h-[100%]  '>
+		<section className=' section h-[100%] mb-10  '>
 			<div className='container mx-auto'>
 				<div className='flex flex-col lg:flex-row gap-x-10 '>
 					<motion.div
