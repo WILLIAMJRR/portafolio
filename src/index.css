@@ -3,13 +3,13 @@
 @tailwind utilities;
 
 
-.modeDark{
+.light{
 background: linear-gradient(
     92.23deg,
-    #330143 21.43%,
+    #050006 20.43%,
     #01374f 50.63%,
-    #4a165e 100%,
-    #000000 21.43%
+    #07000a 100%,
+    #210101 21.43%
   );
 
   /* background: linear-gradient(
