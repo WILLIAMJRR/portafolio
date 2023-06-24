@@ -34,22 +34,22 @@ const Contact = () => {
             className=" flex-1 border  rounded-3xl flex flex-col gap-y-6 pd-24 p-6 items-starte dark:border-black"
           >
             <input
-              className=" bg-transparent border-b py-3 outline-none w-full focus:border-accent transition-all placeholder:text-white"
+              className=" bg-transparent border-b py-3 outline-none w-full focus:border-accent transition-all placeholder:text-white  dark:placeholder:text-black"
               type="text"
               placeholder="Your name"
             />
             <input
-              className=" bg-transparent border-b py-3 outline-none w-full placeholder:text-white focus:border-accent transition-all"
+              className=" bg-transparent border-b py-3 outline-none w-full placeholder:text-white  dark:placeholder:text-black focus:border-accent transition-all"
               type="text"
               placeholder="Your email"
             />
             <input
-              className=" bg-transparent border-b py-3 outline-none w-full placeholder:text-white focus:border-accent transition-all"
+              className=" bg-transparent border-b py-3 outline-none w-full placeholder:text-white  dark:placeholder:text-black focus:border-accent transition-all"
               type="text"
               placeholder="Business"
             />
             <textarea
-              className="text_area bg-transparent border-b py-12 outline-none w-full placeholder:text-white focus:border-accent transition-all resize-none mb-12"
+              className="text_area bg-transparent border-b py-12 outline-none w-full placeholder:text-white  dark:placeholder:text-black focus:border-accent transition-all resize-none mb-12"
               type="text"
               placeholder="Your message"
             ></textarea>

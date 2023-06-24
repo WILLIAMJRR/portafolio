@@ -24,12 +24,19 @@ const Services = () => {
                 What I Do.
               </h2>
               <h3 className="h3   ">
-                front end developer <br /> with knowledge in
-                Html,Css,Tailwind, Bootstrap, Javascript,
-                React,Redux,React router dom,Nextjs, Sql,
+                front end developer
+                <br />
+                with knowledge
+                <br />
+                in Html,Css,Tailwind,
+                <br /> Bootstrap, Javascript, React,Redux,
+                <br />
+                React router dom,
+                <br />
+                Nextjs, Sql.
               </h3>
             </div>
-            <button className="btn btn-sm mt-16">
+            <button className="btn btn-sm mt-20 ">
               See my work
             </button>
           </motion.div>

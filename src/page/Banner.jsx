@@ -43,7 +43,7 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className='text-[36px] lg:text-[60px] font-secondary font-semibold uppercase leading-[1]'
             >
-              <span className='text-white'>I am </span>
+           
               <TypeAnimation
                 sequence={['Web ', 2000, 'Development', 2000, 'Designer', 2000]}
                 speed={50}

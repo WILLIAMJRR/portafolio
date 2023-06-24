@@ -47,8 +47,8 @@ const About = () => {
               whileInView={'show'}
               className="h3 mb-4"
             >
-              I'm a frontend Web Developer💻 As a passionate
-              about web development, I focus on creating
+              frontend Web Developer💻 As a passionate about
+              web development, I focus on creating
               interactive and functional sites that meet the
               needs and preferences of customers. Also, I
               enjoy video games 🎮🕹️ and superhero movies
