@@ -4,7 +4,6 @@ import React, { useState, useEffect } from 'react';
 import Header from './components/Header';
 import Nav from './components/Nav';
 
-import Footer from './components/Footer';
 import { Route, Routes } from 'react-router-dom';
 import Banner from './page/Banner';
 import About from './page/About';
