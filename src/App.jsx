@@ -4,13 +4,12 @@ import React, { useState, useEffect } from 'react';
 import Header from './components/Header';
 import Nav from './components/Nav';
 
-import { Route, Routes } from 'react-router-dom';
+import { Navigate, Route, Routes } from 'react-router-dom';
 import Banner from './page/Banner';
 import About from './page/About';
 import Services from './page/Services';
 import Work from './page/Work';
 import Contact from './page/Contact';
-
 
 function App() {
   //theme state
@@ -19,11 +18,9 @@ function App() {
   useEffect(() => {
     if (theme === 'dark') {
       document.documentElement.classList.add('dark');
-
     } else {
-      document.documentElement.classList.remove('dark')
+      document.documentElement.classList.remove('dark');
       document.documentElement.classList.add('light');
-
     }
   }, [theme]);
   return (
@@ -39,6 +36,7 @@ function App() {
         <Route path="/services" element={<Services />} />
         <Route path="/work" element={<Work />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/*" element={<Navigate to="/" />} />
       </Routes>
 
       <Nav />
