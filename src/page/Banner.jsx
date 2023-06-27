@@ -60,9 +60,13 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className="mb-8 mt-2 max-w-lg mx-auto lg:mx-0"
             >
-              Lorem ipsum dolor sit amet consectetur,
-              adipisicing elit. Iste ipsum dolor cumque
-              suscipit liber
+             web developer with experience in the development of
+              websites and web applications. I have knowledge in the
+              development of frontend . I am a person who likes to
+              work in a team and share knowledge with my colleagues to achieve
+              goals. I am a creative person who is passionate about the world
+              of programming.
+
             </motion.p>
 
             <motion.div
