@@ -60,10 +60,10 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className="mb-8 mt-2 max-w-lg mx-auto lg:mx-0"
             >
-             web developer with experience in the development of
-              websites and web applications. I have knowledge in the
-              development of frontend . 
-
+              web developer with experience in the
+              development of websites and web applications.
+              I have knowledge in the development of
+              frontend .
             </motion.p>
 
             <motion.div
@@ -82,7 +82,7 @@ const Banner = () => {
                 </a>
               </button>
               <a
-                href="/public/curriculum/CURRICULUM WILLIAM RODRIGUEZ ROJAS.pdf"
+                href="https://drive.google.com/file/d/18ycigfovmveF1R2T6qotUgLPiMcAzgDN/view"
                 target="_blank"
                 className="text-gradient btn-link"
               >
