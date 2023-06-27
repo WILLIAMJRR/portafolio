@@ -32,13 +32,18 @@ const Header = ({ theme, setTheme }) => {
               className="p-4 btn"
             >
               {theme === 'dark' ? (
-                 <BsMoonFill />
-                 ) : (
-                 <BsFillSunFill />
+                <BsMoonFill />
+              ) : (
+                <BsFillSunFill />
               )}
             </button>
             <button className="btn btn-sm">
-              Work with me
+              <a href="https://www.linkedin.com/in/william-jose-rodriguez-rojas/"
+              target='_blank'
+              >
+                {' '}
+                Work with me
+              </a>
             </button>
           </div>
           {/* boton */}

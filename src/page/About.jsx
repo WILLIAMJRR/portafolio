@@ -86,8 +86,13 @@ const About = () => {
               viewport={{ once: false, amount: 0.3 }}
               className="mt-5 flex items-center gap-6"
             >
-              <button className="btn btn-lg">
-                Contact me
+              <button className="btn btn-lg ">
+                <a
+                  href="https://www.linkedin.com/in/william-jose-rodriguez-rojas/"
+                  target="_blank"
+                >
+                  Contact me
+                </a>
               </button>
               <a
                 className="text-gradient btn-link"

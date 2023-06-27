@@ -14,7 +14,6 @@ import { motion } from 'framer-motion';
 //variantes
 import { fadeIn } from '../variants';
 //
-import curriculum from '../assets/curriculum/CV.pdf';
 
 const Banner = () => {
   return (
@@ -74,10 +73,16 @@ const Banner = () => {
               className="flex max-w-max gap-6 items-center mb-12 mx-auto lg:mx-0"
             >
               <button className="btn btn-lg ">
-                Contact me
+                <a
+                  href="https://www.linkedin.com/in/william-jose-rodriguez-rojas/"
+                  target="_blank"
+                >
+                  Contact me
+                </a>
               </button>
               <a
-                href="#"
+                href="/public/curriculum/CURRICULUM WILLIAM RODRIGUEZ ROJAS.pdf"
+                target="_blank"
                 className="text-gradient btn-link"
               >
                 My Curriculum
