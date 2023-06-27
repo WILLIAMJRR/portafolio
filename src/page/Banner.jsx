@@ -62,10 +62,7 @@ const Banner = () => {
             >
              web developer with experience in the development of
               websites and web applications. I have knowledge in the
-              development of frontend . I am a person who likes to
-              work in a team and share knowledge with my colleagues to achieve
-              goals. I am a creative person who is passionate about the world
-              of programming.
+              development of frontend . 
 
             </motion.p>
 
