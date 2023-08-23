@@ -6,6 +6,7 @@ import Nav from './components/Nav';
 
 import { Navigate, Route, Routes } from 'react-router-dom';
 import Banner from './page/Banner';
+import Loader from './components/Loader';
 // import About from './page/About';
 // import Services from './page/Services';
 // import Work from './page/Work';
@@ -43,7 +44,7 @@ function App() {
         <Route
           path="/about"
           element={
-            <Suspense fallback={null}>
+            <Suspense fallback={<Loader />}>
               <About />
             </Suspense>
           }
@@ -52,7 +53,7 @@ function App() {
         <Route
           path="/services"
           element={
-            <Suspense fallback={null}>
+            <Suspense fallback={<Loader />}>
               <Services />
             </Suspense>
           }
@@ -60,7 +61,7 @@ function App() {
         <Route
           path="/work"
           element={
-            <Suspense fallback={null}>
+            <Suspense fallback={<Loader />}>
               <Work />
             </Suspense>
           }
@@ -68,7 +69,7 @@ function App() {
         <Route
           path="/contact"
           element={
-            <Suspense fallback={null}>
+            <Suspense fallback={<Loader />}>
               <Contact />
             </Suspense>
           }
