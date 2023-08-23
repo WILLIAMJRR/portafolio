@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, lazy, Suspense } from 'react';
 // components
 
 import Header from './components/Header';
@@ -6,10 +6,18 @@ import Nav from './components/Nav';
 
 import { Navigate, Route, Routes } from 'react-router-dom';
 import Banner from './page/Banner';
-import About from './page/About';
-import Services from './page/Services';
-import Work from './page/Work';
-import Contact from './page/Contact';
+// import About from './page/About';
+// import Services from './page/Services';
+// import Work from './page/Work';
+// import Contact from './page/Contact';
+
+const About = lazy(() => import('./page/About'));
+
+const Services = lazy(() => import('./page/Services'));
+
+const Work = lazy(() => import('./page/Work'));
+
+const Contact = lazy(() => import('./page/Contact'));
 
 function App() {
   //theme state
@@ -32,10 +40,39 @@ function App() {
       <Routes>
         <Route path="/" element={<Banner />} />
 
-        <Route path="/about" element={<About />} />
-        <Route path="/services" element={<Services />} />
-        <Route path="/work" element={<Work />} />
-        <Route path="/contact" element={<Contact />} />
+        <Route
+          path="/about"
+          element={
+            <Suspense fallback={null}>
+              <About />
+            </Suspense>
+          }
+        />
+
+        <Route
+          path="/services"
+          element={
+            <Suspense fallback={null}>
+              <Services />
+            </Suspense>
+          }
+        />
+        <Route
+          path="/work"
+          element={
+            <Suspense fallback={null}>
+              <Work />
+            </Suspense>
+          }
+        />
+        <Route
+          path="/contact"
+          element={
+            <Suspense fallback={null}>
+              <Contact />
+            </Suspense>
+          }
+        />
         <Route path="/*" element={<Navigate to="/" />} />
       </Routes>
 
